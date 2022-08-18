@@ -1,16 +1,13 @@
 {
-  "name": "delivery-hero-fe-case",
+  "name": "digifist-case",
   "version": "1.0.0",
   "repository": "git@github.com:ErenHncr/digifist-case.git",
-  "homepage": "https://erenhncr.github.io/digifist-case",
   "author": "erenhncr <erenhncr@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "parcel public/index.html --open",
-    "build": "parcel build public/index.html --public-url ./",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build public/index.html --public-url ./"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.6.0",
@@ -20,7 +17,6 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "gh-pages": "^4.0.0",
     "parcel": "2.6.0",
     "process": "^0.11.10"
   },
