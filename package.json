@@ -5,7 +5,7 @@
   "homepage": "https://erenhncr.github.io/digifist-case",
   "author": "erenhncr <erenhncr@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "parcel public/index.html --open",
     "build": "parcel build public/index.html",
