@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 
-import chevronRight from './assets/svg/chevron-right2.svg';
+import chevronRight from './assets/svg/chevron-right.svg';
 
 import womanInYellow from './assets/png/womaninyellow.png';
 import hoodie from './assets/png/hoodie.png';
